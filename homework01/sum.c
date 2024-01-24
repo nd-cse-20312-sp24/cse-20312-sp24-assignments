@@ -10,7 +10,7 @@
 /* Functions */
 
 int compute_sum(int numbers[], size_t n) {
-    int sum;
+    int sum = 0;
 
     for (size_t i = 0; i < n; i++) {
     	sum += numbers[i];
